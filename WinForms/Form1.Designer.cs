@@ -51,7 +51,7 @@
             this.dgvLista.Location = new System.Drawing.Point(12, 46);
             this.dgvLista.MultiSelect = false;
             this.dgvLista.Name = "dgvLista";
-            this.dgvLista.Size = new System.Drawing.Size(430, 263);
+            this.dgvLista.Size = new System.Drawing.Size(469, 263);
             this.dgvLista.TabIndex = 0;
             this.dgvLista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLista_CellContentClick);
             this.dgvLista.SelectionChanged += new System.EventHandler(this.dgvLista_SelectionChanged);
@@ -62,7 +62,8 @@
             this.pbArticulo.BackColor = System.Drawing.Color.Black;
             this.pbArticulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbArticulo.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pbArticulo.ErrorImage")));
-            this.pbArticulo.Location = new System.Drawing.Point(464, 36);
+            this.pbArticulo.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbArticulo.InitialImage")));
+            this.pbArticulo.Location = new System.Drawing.Point(487, 46);
             this.pbArticulo.MaximumSize = new System.Drawing.Size(307, 263);
             this.pbArticulo.MinimumSize = new System.Drawing.Size(307, 263);
             this.pbArticulo.Name = "pbArticulo";
@@ -111,13 +112,13 @@
             // 
             this.txtFiltro.Location = new System.Drawing.Point(13, 20);
             this.txtFiltro.Name = "txtFiltro";
-            this.txtFiltro.Size = new System.Drawing.Size(341, 20);
+            this.txtFiltro.Size = new System.Drawing.Size(378, 20);
             this.txtFiltro.TabIndex = 5;
             this.txtFiltro.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFiltro_KeyPress);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(361, 17);
+            this.btnBuscar.Location = new System.Drawing.Point(397, 17);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 6;
